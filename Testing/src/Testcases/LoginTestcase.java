@@ -32,7 +32,7 @@ public class LoginTestcase {
 		System.out.println(Loginpageobject.profilename.getText());
 	}
 	
-	@Test(priority=2)
+	@Test(priority=3)
 	public void launchchrome()
 	{
 		
