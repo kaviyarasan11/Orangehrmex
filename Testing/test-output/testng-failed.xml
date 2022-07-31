@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Testsuite]">
+  <listeners>
+    <listener class-name="TestNG.Listenereg"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="Name" value="kavi"/>
+    <groups>
+      <run>
+        <exclude name="orange"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Testcases.LoginTestcase">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- Testcases.LoginTestcase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Testsuite] -->

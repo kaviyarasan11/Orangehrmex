@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15488" started-at="2022-07-10T11:48:57Z" finished-at="2022-07-10T11:49:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15488" started-at="2022-07-10T11:48:57Z" finished-at="2022-07-10T11:49:12Z">
+      <class name="DatadrivenFW.Readingexcel">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:DatadrivenFW.Readingexcel@28feb3fa]" name="login" duration-ms="8729" started-at="2022-07-10T11:48:57Z" data-provider="logintest" finished-at="2022-07-10T11:49:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kavi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kavi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:DatadrivenFW.Readingexcel@28feb3fa]" name="login" duration-ms="3394" started-at="2022-07-10T11:49:06Z" data-provider="logintest" finished-at="2022-07-10T11:49:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Moon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Moon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:DatadrivenFW.Readingexcel@28feb3fa]" name="login" duration-ms="3231" started-at="2022-07-10T11:49:09Z" data-provider="logintest" finished-at="2022-07-10T11:49:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MOM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mom]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- DatadrivenFW.Readingexcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

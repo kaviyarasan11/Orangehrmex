@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Testsuite" verbose="1" >
+<listeners>
+<listener class-name="TestNG.Listenereg"></listener></listeners>
+<test name = "Test" >
+
+<parameter name="Name" value="kavi"></parameter>
+<groups>
+<run>
+<exclude name="orange"></exclude>
+</run>
+</groups>
+
+<classes>
+<class name ="Testcases.LoginTestcase"></class>
+</classes>
+</test>
+</suite>
